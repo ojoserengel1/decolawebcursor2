@@ -205,7 +205,8 @@ const HowItWorks: React.FC = () => {
                          
                          <p className="text-gray-400 text-sm md:text-lg leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10 px-4 text-center">
                             <span className="whitespace-nowrap">Não te abandonamos depois do seu site no ar.</span> <br />
-                            Enquanto seu plano estiver ativo, seu site continua <span className="text-white font-medium">no ar, atualizado e seguro.</span> <br />
+                            Enquanto seu plano estiver ativo, seu site continua <br className="hidden md:block" />
+                            <span className="text-white font-medium">no ar, atualizado e seguro.</span> <br />
                             Precisou de ajuda? É só nos chamar.
                          </p>
                          
