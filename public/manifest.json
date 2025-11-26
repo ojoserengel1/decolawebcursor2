@@ -1,0 +1,22 @@
+{
+  "name": "DecolaWeb - Sites Profissionais",
+  "short_name": "DecolaWeb",
+  "description": "Site profissional completo por apenas R$ 99,90/mês",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03041A",
+  "theme_color": "#FF002E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}
+

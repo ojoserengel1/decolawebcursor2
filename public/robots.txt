@@ -1,0 +1,29 @@
+# robots.txt para DecolaWeb
+# Permitir acesso de todos os crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://decolaweb.com.br/sitemap.xml
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Bloquear acesso a arquivos específicos (se necessário)
+Disallow: /api/
+Disallow: /*.json$
+
+# Permitir explicitamente os principais bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
