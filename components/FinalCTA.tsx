@@ -42,7 +42,7 @@ const FinalCTA: React.FC = () => {
                     <div className="p-6 md:p-10 flex flex-col justify-center items-center md:items-start text-center md:text-left opacity-50 hover:opacity-70 transition-opacity">
                         <span className="text-[10px] md:text-xs font-bold tracking-widest text-gray-500 uppercase mb-2 md:mb-3">O Caminho Difícil</span>
                         <p className="text-gray-300 font-medium text-base md:text-lg">
-                            Continuar dependendo só de rede social, indicação e improviso...
+                            Continuar dependendo só de rede social, indicação e improviso.
                         </p>
                     </div>
 
