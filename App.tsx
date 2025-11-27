@@ -7,6 +7,7 @@ import PriceAnchor from './components/PriceAnchor';
 import HowItWorks from './components/HowItWorks';
 import Mission from './components/Mission';
 import FAQ from './components/FAQ';
+import Founder from './components/Founder';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <Mission />
         <FAQ />
         <FinalCTA />
+        <Founder />
       </main>
       <Footer />
     </div>
