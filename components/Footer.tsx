@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Mail, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Instagram, Mail, ArrowRight, ShieldCheck } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const whatsappLink = "https://wa.me/5547997094291?text=Quero%20meu%20site%20por%20R%2499%2C90%2Fm%C3%AAs";
@@ -33,14 +33,6 @@ const Footer: React.FC = () => {
                 className="w-10 h-10 rounded-full bg-white/5 border border-white/5 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all duration-300"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a 
-                href="https://www.facebook.com/decolaweb" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-white/5 border border-white/5 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all duration-300"
-              >
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>
