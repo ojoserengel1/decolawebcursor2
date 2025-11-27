@@ -127,7 +127,7 @@ const PriceAnchor: React.FC = () => {
                         </div>
 
                         {/* Features List */}
-                        <div className="grid grid-cols-1 gap-y-3 md:gap-y-4 mb-8 md:mb-10 pl-2 md:pl-0 justify-items-start w-fit mx-auto md:mx-0">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 md:gap-y-4 mb-8 md:mb-10 pl-2 md:pl-0 justify-items-start w-fit mx-auto md:mx-0">
                             {[
                                 "Site Profissional",
                                 "SEO Básico Incluso",
