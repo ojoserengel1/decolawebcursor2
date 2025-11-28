@@ -3,7 +3,7 @@ import { Instagram, Target, TrendingUp, Users } from 'lucide-react';
 
 const Founder: React.FC = () => {
   return (
-    <section className="py-16 md:py-32 bg-[#02030a] relative overflow-hidden text-white">
+    <section id="founder" className="py-16 md:py-32 bg-[#02030a] relative overflow-hidden text-white">
       
       {/* Background Elements */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-5 pointer-events-none"></div>

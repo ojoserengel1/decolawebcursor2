@@ -27,15 +27,14 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Headline Principal */}
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 md:mb-8 tracking-tight leading-[1.1] md:leading-[1.15]">
-          Site profissional completo <br className="hidden md:block" />
-          por apenas <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF002E] via-[#ff4d6d] to-[#FF002E] animate-gradient-x drop-shadow-sm whitespace-nowrap">R$ 99,90/mês</span>
+        <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 md:mb-8 tracking-tight leading-[1.1] md:leading-[1.15]">
+          <span className="text-primary">Chega de ser invisível.</span> <span className="md:hidden"><br />Sua empresa precisa <br />aparecer na internet.</span>
+          <span className="hidden md:inline"> Sua empresa <br />precisa aparecer na internet.</span>
         </h1>
         
         {/* Subheadline */}
-        <p className="text-base md:text-xl text-gray-400 max-w-4xl mb-8 md:mb-12 font-light leading-relaxed max-w-[320px] md:max-w-4xl mx-auto">
-          Site moderno, domínio, hospedagem, segurança e suporte — tudo em um único plano, <br className="hidden md:block" />
-          sem investimento alto e sem se preocupar com parte técnica.
+        <p className="text-base md:text-xl text-gray-400 mb-8 md:mb-12 font-light leading-relaxed max-w-[320px] md:max-w-2xl mx-auto">
+          Site profissional, domínio, hospedagem, e-mail, segurança, manutenção e suporte — tudo em um único plano por R$ 99,90/mês, feito para caber no bolso do empresário e sem se preocupar com a parte técnica.
         </p>
         
         {/* CTA Button com Glow Effect */}

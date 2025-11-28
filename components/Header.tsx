@@ -32,6 +32,7 @@ const Header: React.FC = () => {
             <a href="#beneficios" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Entregáveis</a>
             <a href="#pricing" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Contratar</a>
             <a href="#como-funciona" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Como Funciona</a>
+            <a href="#founder" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Sobre</a>
             <a href="#missao" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Missão</a>
             <a href="#faq" className="text-gray-300 hover:text-white transition-colors text-sm font-medium">Dúvidas</a>
             </nav>
