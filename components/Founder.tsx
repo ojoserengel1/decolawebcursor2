@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Instagram, Target, TrendingUp, Users } from 'lucide-react';
 
 const Founder: React.FC = () => {
+  const [imageError, setImageError] = useState(false);
+
   return (
     <section id="founder" className="py-16 md:py-32 bg-[#02030a] relative overflow-hidden text-white">
       
@@ -64,9 +66,22 @@ const Founder: React.FC = () => {
                 
                 {/* Header Card */}
                 <div className="flex items-center gap-4 mb-8 relative z-10">
-                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-gray-800 to-gray-900 rounded-full border-2 border-white/10 flex items-center justify-center overflow-hidden">
-                        {/* Placeholder para foto ou ícone abstrato se não tiver foto */}
-                        <Users className="w-8 h-8 md:w-10 md:h-10 text-gray-600" />
+                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-gray-800 to-gray-900 rounded-full border-2 border-white/10 flex items-center justify-center overflow-hidden relative">
+                        {!imageError ? (
+                            <picture>
+                                <source srcSet="/jose-rengel.webp" type="image/webp" />
+                                <img 
+                                    src="/jose-rengel.jpg" 
+                                    alt="José Rengel, fundador da DecolaWeb" 
+                                    className="w-full h-full object-cover rounded-full"
+                                    onError={() => setImageError(true)}
+                                />
+                            </picture>
+                        ) : (
+                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900">
+                                <Users className="w-8 h-8 md:w-10 md:h-10 text-gray-400" />
+                            </div>
+                        )}
                     </div>
                     <div>
                         <h3 className="text-xl md:text-2xl font-bold text-white">José Rengel</h3>
